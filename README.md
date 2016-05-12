@@ -1,9 +1,7 @@
 #Getting and Cleaning Data Course Project
 
-
-<div>
+<div id="instructions">
 Author: **Francisco J. Álvarez Montero**
-
 Date: **May 12th 2016-12/05/2016**
 </div>
 
