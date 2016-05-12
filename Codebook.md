@@ -11,7 +11,7 @@ This repository includes all the files for week 4's project of the Getting and C
 - From the data set in step 4, create a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 ##Clean the workspace and load the required libraries
-```{r load-packages, message=FALSE}
+```{r load-packages, echo=FALSE}
 rm(list=ls())
 library(plyr)
 ```
