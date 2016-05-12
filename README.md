@@ -27,4 +27,5 @@ The steps presented here are just informative. For a precise description, includ
 - From the **final big** data frame, create a second, tidy data frame with the average of each variable for each activity and each subject
 - Create a **text file**, representing the final tidy data set, from the previously created data frame
 
-
+## Output produced
+The output of the steps or algorithm is a text filed named  **'independenttidydata.txt'** which is saved in the working directory of R or RStudio.
