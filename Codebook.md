@@ -9,3 +9,9 @@ This repository includes all the files for week 4's project of the Getting and C
 - Use descriptive activity names to name the activities in the data set
 - Appropriately label the data set with descriptive variable names.
 - From the data set in step 4, create a second, independent tidy data set with the average of each variable for each activity and each subject.
+
+##Clean the workspace and load the required libraries
+```{r load-packages, message=FALSE}
+rm(list=ls())
+library(plyr)
+```
