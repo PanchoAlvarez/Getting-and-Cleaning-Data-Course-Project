@@ -28,4 +28,4 @@ The steps presented here are just informative. For a precise description, includ
 - Create a **text file**, representing the final tidy data set, from the previously created data frame
 
 ## Output produced
-The output of the steps or algorithm is a text filed named  **'independenttidydata.txt'** which is saved in the working directory of R or RStudio.
+The output of the steps or algorithm is a text filed named  **'independenttidydata.txt'** which is saved in the working directory of the R Console or RStudio.
