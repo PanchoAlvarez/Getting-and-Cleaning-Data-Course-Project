@@ -15,3 +15,25 @@ This repository includes all the files for week 4's project of the Getting and C
 rm(list=ls())
 library(plyr)
 ```
+##Donwload the file containing the data and unzip it
+```{r downloadandunzip, echo=FALSE}
+#Assign the directory or folder path to a variable
+filedirectory<-"./Data Science Specialization/Data Cleaning/Week4"
+#Create a new directory or folder if it does not exist.The recursive parameter o dir.create is set to TRUE because it needs to create several folders or directories
+if(!file.exists(filedirectory)){dir.create(filedirectory,recursive = TRUE)}
+#Assign the URL with the zip FILE containing the datasets to a variable
+fileUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
+#Assign the name of the file to be downloaded to a variable
+filename<-"Dataset.zip"
+#I the ZIP file does not exits, it Downloads into the previously created folder or directory: "./Data Science Specialization/Data Cleaning/Week4"
+if(!file.exists(paste(filedirectory,"/",filename,sep=""))){download.file(fileUrl,destfile=paste(filedirectory,filename,sep=""))}
+#Unzip the downloaded file
+unzip(zipfile=paste(filedirectory,"/",filename,sep=""),exdir=filedirectory)
+#The unzipped files are in the folder 'UCI HAR Dataset'. Get the list of files and print it
+#Construct the path to a file from components in a platform-independent way. 
+path2files<-file.path(filedirectory,"UCI HAR Dataset")
+#Get the list of files in the folder and subfolders, recursive must be set to TRUE for this
+filesinfolder<-list.files(path2files, recursive=TRUE)
+#Print the list of files
+filesinfolder
+```
