@@ -1,3 +1,11 @@
+---
+title: "Untitled"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
 #Getting and Cleaning Data Course Project
 Author: **Francisco J. Álvarez Montero**
 Date: **May 12th 2016-12/05/2016**
