@@ -17,8 +17,7 @@ The steps presented here are just informative. For a precise description, includ
 - Merge the **activitity** data frames (**2**)
 - Merge the **features** data frames (**2**)
 - Merge the **subject** data frames (**2**)
-- Assign names to the variables/columns to the merged data frames (**3**). Since the **activity** and **subject** data frames have only one column, assign the names **'Activity'** and **'Subject'** to their only column respectively. The column names for the 
-- **features** data frame need to be taken from the **'features.txt'** file.
+- Assign names to the variables/columns to the merged data frames (**3**). Since the **activity** and **subject** data frames have only one column, assign the names **'Activity'** and **'Subject'** to their only column respectively. The column names for the **features** data frame need to be taken from the **'features.txt'** file.
 - Merge or unite the merged data frames (**3**) into a **single big** one
 - From the available feature names, contained in a previously created data frame, select only  those that have **“mean()”** or **“std()”** as part of their names
 - Uset the selected names to subset the **single big** data frame previously created
