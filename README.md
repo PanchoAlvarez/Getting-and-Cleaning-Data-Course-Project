@@ -6,7 +6,7 @@ Date: **May 12th 2016-12/05/2016**
 This repository includes all the files for week 4's project of the Getting and Cleaning Data course. In particular, the goal of the project is to create a tidy data set of [wearable computing data](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones). The tidy data set is produced through an R script called **run_analysis.R**. The algorithm or steps are presented next.
 
 ##Steps needed to produce the tidy data set
-The steps presented here are just informative. For a precise description, including code, see the **Cookbook.Md** file. The algorithm assumes that the data must be downloaded from a [url](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) in the form of a **zip file**. 
+The steps presented here are just informative. For a precise description, including code, see the **Codebook.Md** file. The algorithm assumes that the data must be downloaded from a [url](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) in the form of a **zip file**. 
 
 - Clean R's workspace
 - Load the **Plyr** package
