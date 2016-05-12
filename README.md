@@ -24,3 +24,8 @@ The steps presented here are just informative. For a precise description, includ
 - Uset the selected names to subset the **single big** data frame previously created
 - Read and load the activity labels from the **activity_labels.txt** file creating a data frame
 - Assign this labels to the  **Activity** column of the **single big** data frame
+- Expand the colum names of the **final big** data frame in order to improve their readability
+- From the **final big** data frame, create a second, tidy data frame with the average of each variable for each activity and each subject
+- Create a **text file**, representing the final tidy data set, from the previously created data frame
+
+
