@@ -77,7 +77,7 @@ filesinfolder
 The files to be used in this analysis are shown graphically in the figure below. Files in the Inertial Signals folders are not being used here. From the figure, we see that we will use Activity, Subject and Features as part of descriptive variable names for the final data frame we will create.
 
 <div id="bg">
-  <img src="re_tidy.png" alt="">
+  <img src="http://datascience-enthusiast.com/figures/re_tidy.png" alt="">
 </div> 
 
 ```{r readfiles results:hide}
