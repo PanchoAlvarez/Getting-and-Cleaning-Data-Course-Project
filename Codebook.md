@@ -35,7 +35,9 @@ Anguita, D., Ghio, A., Oneto, L., Parra, X., & Reyes-Ortiz, J. L. (2012). Human 
 -----------------------------------------
 ##Clean the workspace and load the required libraries
 ```{r load-packages, echo=FALSE}
+##Clean the workspace
 rm(list=ls())
+##Load required packages
 library(plyr)
 ```
 ##Donwload the file containing the data and unzip it
