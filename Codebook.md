@@ -63,3 +63,13 @@ filesinfolder<-list.files(path2files, recursive=TRUE)
 #Print the list of files
 filesinfolder
 ```
+##Read the data from the files
+###The files to be read are six:
+###1.test/subject_test.txt
+###2.test/X_test.txt
+###3.test/y_test.txt
+###4.train/subject_train.txt
+###5.train/X_train.txt
+###6. train/y_train.txt
+
+
