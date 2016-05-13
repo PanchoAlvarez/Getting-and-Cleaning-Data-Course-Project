@@ -50,7 +50,7 @@ if(!file.exists(filedirectory)){dir.create(filedirectory,recursive = TRUE)}
 fileUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 #Assign the name of the file to be downloaded to a variable
 filename<-"Dataset.zip"
-#I the ZIP file does not exits, it Downloads into the previously created folder or directory: "./Data Science Specialization/Data Cleaning/Week4"
+#If the ZIP file does not exits, it Downloads it into the previously created folder or directory: "./Data Science Specialization/Data Cleaning/Week4"
 if(!file.exists(paste(filedirectory,"/",filename,sep=""))){download.file(fileUrl,destfile=paste(filedirectory,filename,sep=""))}
 #Unzip the downloaded file
 unzip(zipfile=paste(filedirectory,"/",filename,sep=""),exdir=filedirectory)
