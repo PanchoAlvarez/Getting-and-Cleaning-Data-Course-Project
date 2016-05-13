@@ -1,5 +1,5 @@
 #Getting and Cleaning Data Course Project
-Author: **Francisco J. Ãlvarez Montero**
+Author: **Francisco J. Álvarez Montero**
 
 Date: **May 12th 2016-12/05/2016**
 
@@ -170,9 +170,4 @@ str(finalDf02)
 ##Create a **text file**, representing the final tidy data set, from the previously created data frame
 ```{r createtextfile}
 write.table(finalDf02, file = "independenttidydata.txt",row.name=FALSE)
-```
-
-##Knit the R markdown file
-```{r knitfile}
-knit2html("codebook.Rmd")
 ```
