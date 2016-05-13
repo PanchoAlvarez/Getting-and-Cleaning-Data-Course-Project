@@ -1,5 +1,5 @@
 #Getting and Cleaning Data Course Project
-Author: **Francisco J. Álvarez Montero**
+Author: **Francisco J. Ãlvarez Montero**
 
 Date: **May 12th 2016-12/05/2016**
 
@@ -34,14 +34,15 @@ Anguita, D., Ghio, A., Oneto, L., Parra, X., & Reyes-Ortiz, J. L. (2012). Human 
 #R code to produce the tidy data set
 -----------------------------------------
 ##Clean the workspace and load the required libraries
-```{r load-packages, echo=FALSE}
+```{r load-packages, message=FALSE}
 ##Clean the workspace
 rm(list=ls())
 ##Load required packages
 library(plyr)
 ```
 ##Donwload the file containing the data and unzip it
-```{r downloadandunzip, echo=FALSE}
+```{r downloadandunzip, message=FALSE}
+##STEP 1: DOWNLOAD THE FILE AND UNZIP IT 
 #Assign the directory or folder path to a variable
 filedirectory<-"./Data Science Specialization/Data Cleaning/Week4"
 #Create a new directory or folder if it does not exist.The recursive parameter o dir.create is set to TRUE because it needs to create several folders or directories
@@ -50,7 +51,7 @@ if(!file.exists(filedirectory)){dir.create(filedirectory,recursive = TRUE)}
 fileUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 #Assign the name of the file to be downloaded to a variable
 filename<-"Dataset.zip"
-#If the ZIP file does not exits, it Downloads it into the previously created folder or directory: "./Data Science Specialization/Data Cleaning/Week4"
+#I the ZIP file does not exits, it Downloads into the previously created folder or directory: "./Data Science Specialization/Data Cleaning/Week4"
 if(!file.exists(paste(filedirectory,"/",filename,sep=""))){download.file(fileUrl,destfile=paste(filedirectory,filename,sep=""))}
 #Unzip the downloaded file
 unzip(zipfile=paste(filedirectory,"/",filename,sep=""),exdir=filedirectory)
